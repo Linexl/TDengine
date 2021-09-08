@@ -379,6 +379,10 @@ typedef struct SSqlObj {
   SSqlCmd          cmd;
   SSqlRes          res;
   bool             isBind;
+
+  bool             delayFetchMeta;
+  bool             metaAutoCreate;
+  void *           pTableMetaInfo;
   
   SSubqueryState   subState;
   struct SSqlObj **pSubs;

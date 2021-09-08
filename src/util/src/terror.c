@@ -115,6 +115,7 @@ TAOS_DEFINE_ERROR(TSDB_CODE_TSC_NO_META_CACHED,           "No table meta cached"
 TAOS_DEFINE_ERROR(TSDB_CODE_TSC_DUP_COL_NAMES,             "duplicated column names")
 TAOS_DEFINE_ERROR(TSDB_CODE_TSC_INVALID_TAG_LENGTH,        "Invalid tag length")
 TAOS_DEFINE_ERROR(TSDB_CODE_TSC_INVALID_COLUMN_LENGTH,     "Invalid column length")
+TAOS_DEFINE_ERROR(TSDB_CODE_TSC_NEED_TO_FETCH_META,        "Need to fetch meta")
 
 // mnode
 TAOS_DEFINE_ERROR(TSDB_CODE_MND_MSG_NOT_PROCESSED,        "Message not processed")
